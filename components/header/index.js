@@ -7,7 +7,7 @@ import {
 export default function Header(){
     return (
         <div className="fixed top-0 z-40 w-full py-4 bg-white">
-            <div className="container flex items-center justify-between px-4 mx-auto">
+            <div className="container flex items-center justify-between px-10 mx-auto">
                 <h1 className="text-2xl font-bold font-poppins">Zaan<span className="text-primary">.</span></h1>
                 <div className="flex justify-center text-2xl">
                     <FontAwesomeIcon icon={faGithub} className="px-1" />
