@@ -6,11 +6,8 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className="relative z-10 flex items-center w-screen h-screen">
+      <div className="relative z-10 w-screen h-screen py-36">
         <Content />
-        <div className="absolute bottom-8 left-10">
-          <SideMenu />
-        </div>
       </div>
     </>
   )
